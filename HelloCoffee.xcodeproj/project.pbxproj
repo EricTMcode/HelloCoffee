@@ -18,6 +18,8 @@
 		07FFD2B72B8330B000E5A39A /* OrderCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FFD2B62B8330B000E5A39A /* OrderCellView.swift */; };
 		07FFD2BA2B83323D00E5A39A /* AppEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FFD2B92B83323D00E5A39A /* AppEnvironment.swift */; };
 		07FFD2C22B83369C00E5A39A /* HelloCoffeeEndToEndTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FFD2C12B83369C00E5A39A /* HelloCoffeeEndToEndTests.swift */; };
+		07FFD2CB2B833C9600E5A39A /* AddCoffeeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FFD2CA2B833C9600E5A39A /* AddCoffeeView.swift */; };
+		07FFD2CD2B833E1300E5A39A /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FFD2CC2B833E1300E5A39A /* View+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		07FFD2B92B83323D00E5A39A /* AppEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEnvironment.swift; sourceTree = "<group>"; };
 		07FFD2BF2B83369C00E5A39A /* HelloCoffeeEndToEndTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloCoffeeEndToEndTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		07FFD2C12B83369C00E5A39A /* HelloCoffeeEndToEndTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloCoffeeEndToEndTests.swift; sourceTree = "<group>"; };
+		07FFD2CA2B833C9600E5A39A /* AddCoffeeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCoffeeView.swift; sourceTree = "<group>"; };
+		07FFD2CC2B833E1300E5A39A /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +131,7 @@
 			children = (
 				07FFD29E2B81E6C200E5A39A /* ContentView.swift */,
 				07FFD2B62B8330B000E5A39A /* OrderCellView.swift */,
+				07FFD2CA2B833C9600E5A39A /* AddCoffeeView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -135,6 +140,7 @@
 			isa = PBXGroup;
 			children = (
 				07FFD2B42B83301F00E5A39A /* NumberFormatter+Extensions.swift */,
+				07FFD2CC2B833E1300E5A39A /* View+Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -259,9 +265,11 @@
 				07FFD2B72B8330B000E5A39A /* OrderCellView.swift in Sources */,
 				07FFD2B22B81EA1D00E5A39A /* CoffeeModel.swift in Sources */,
 				07FFD2B52B83301F00E5A39A /* NumberFormatter+Extensions.swift in Sources */,
+				07FFD2CB2B833C9600E5A39A /* AddCoffeeView.swift in Sources */,
 				07FFD29D2B81E6C200E5A39A /* HelloCoffeeApp.swift in Sources */,
 				07FFD2BA2B83323D00E5A39A /* AppEnvironment.swift in Sources */,
 				07FFD2AF2B81E74000E5A39A /* Order.swift in Sources */,
+				07FFD2CD2B833E1300E5A39A /* View+Extensions.swift in Sources */,
 				07FFD2AC2B81E6E900E5A39A /* Webservice.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

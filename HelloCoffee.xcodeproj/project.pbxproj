@@ -20,6 +20,7 @@
 		07FFD2C22B83369C00E5A39A /* HelloCoffeeEndToEndTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FFD2C12B83369C00E5A39A /* HelloCoffeeEndToEndTests.swift */; };
 		07FFD2CB2B833C9600E5A39A /* AddCoffeeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FFD2CA2B833C9600E5A39A /* AddCoffeeView.swift */; };
 		07FFD2CD2B833E1300E5A39A /* View+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FFD2CC2B833E1300E5A39A /* View+Extensions.swift */; };
+		07FFD2CF2B85C8E300E5A39A /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FFD2CE2B85C8E300E5A39A /* String+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		07FFD2C12B83369C00E5A39A /* HelloCoffeeEndToEndTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloCoffeeEndToEndTests.swift; sourceTree = "<group>"; };
 		07FFD2CA2B833C9600E5A39A /* AddCoffeeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCoffeeView.swift; sourceTree = "<group>"; };
 		07FFD2CC2B833E1300E5A39A /* View+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extensions.swift"; sourceTree = "<group>"; };
+		07FFD2CE2B85C8E300E5A39A /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +143,7 @@
 			children = (
 				07FFD2B42B83301F00E5A39A /* NumberFormatter+Extensions.swift */,
 				07FFD2CC2B833E1300E5A39A /* View+Extensions.swift */,
+				07FFD2CE2B85C8E300E5A39A /* String+Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				07FFD29F2B81E6C200E5A39A /* ContentView.swift in Sources */,
+				07FFD2CF2B85C8E300E5A39A /* String+Extensions.swift in Sources */,
 				07FFD2B72B8330B000E5A39A /* OrderCellView.swift in Sources */,
 				07FFD2B22B81EA1D00E5A39A /* CoffeeModel.swift in Sources */,
 				07FFD2B52B83301F00E5A39A /* NumberFormatter+Extensions.swift in Sources */,

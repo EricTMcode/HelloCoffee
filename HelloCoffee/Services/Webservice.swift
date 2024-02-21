@@ -21,7 +21,7 @@ class Webservice {
     }
     
     func placeOrder(order: Order) async throws -> Order {
-        guard let url = URL(string: Endpoints.allOrders.path, relativeTo: baseURL) else {
+        guard let url = URL(string: Endpoints.placeOrder.path, relativeTo: baseURL) else {
             throw NetworkError.badURL
         }
         

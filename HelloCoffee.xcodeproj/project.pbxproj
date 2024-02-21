@@ -73,7 +73,6 @@
 		07FFD2902B81E6C200E5A39A = {
 			isa = PBXGroup;
 			children = (
-				07FFD2B82B83323200E5A39A /* Utils */,
 				07FFD29B2B81E6C200E5A39A /* HelloCoffee */,
 				07FFD2C02B83369C00E5A39A /* HelloCoffeeEndToEndTests */,
 				07FFD29A2B81E6C200E5A39A /* Products */,
@@ -97,6 +96,7 @@
 				07FFD2AD2B81E73800E5A39A /* Models */,
 				07FFD2AA2B81E6D800E5A39A /* Services */,
 				07FFD2B32B83300B00E5A39A /* Extensions */,
+				07FFD2B82B83323200E5A39A /* Utils */,
 				07FFD2A02B81E6C300E5A39A /* Assets.xcassets */,
 				07FFD2A22B81E6C300E5A39A /* Preview Content */,
 			);

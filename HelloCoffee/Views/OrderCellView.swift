@@ -17,12 +17,12 @@ struct OrderCellView: View {
                     .accessibilityIdentifier("orderNameText")
                     .bold()
                 Text("\(order.coffeeName) (\(order.size.rawValue))")
-                    .accessibilityIdentifier("CoffeeNameAndSizeText")
+                    .accessibilityIdentifier("coffeeNameAndSizeText")
                     .opacity(0.5)
             }
             Spacer()
             Text(order.total as NSNumber, formatter: NumberFormatter.currency)
-                .accessibilityIdentifier("CoffeePriceText")
+                .accessibilityIdentifier("coffeePriceText")
         }
     }
 }

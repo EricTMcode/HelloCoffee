@@ -20,12 +20,17 @@ struct ContentView: View {
                 } else {
                     List {
                         ForEach(model.orders) { order in
-                            OrderCellView(order: order)
+                            NavigationLink(value: order.id) {
+                                OrderCellView(order: order)
+                            }
                         }
                         .onDelete(perform: deleteOrder)
                         .accessibilityIdentifier("Delete")
                     }
                 }
+            }
+            .navigationDestination(for: Int.self) { orderId in
+                OrderDetailView(orderId: orderId)
             }
             .task {
                 await populateOrders()

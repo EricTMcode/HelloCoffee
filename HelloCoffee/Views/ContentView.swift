@@ -23,6 +23,7 @@ struct ContentView: View {
                             OrderCellView(order: order)
                         }
                         .onDelete(perform: deleteOrder)
+                        .accessibilityIdentifier("Delete")
                     }
                 }
             }

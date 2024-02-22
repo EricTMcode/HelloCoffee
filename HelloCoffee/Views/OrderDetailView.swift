@@ -10,6 +10,7 @@ import SwiftUI
 struct OrderDetailView: View {
     let orderId: Int
     @EnvironmentObject private var model: CoffeeModel
+    @Environment(\.dismiss) private var dismiss
     @State private var isPresented = false
     
     var body: some View {
@@ -27,7 +28,9 @@ struct OrderDetailView: View {
                     HStack {
                         Spacer()
                         Button("Delete Order", role: .destructive) {
-                            
+                            Task {
+                                await deleteOrder()
+                            }
                         }
                         Button("Edit Order") {
                             isPresented = true
@@ -36,13 +39,22 @@ struct OrderDetailView: View {
                         Spacer()
                     }
                     .sheet(isPresented: $isPresented) {
-                        AddCoffeeView()
+                        AddCoffeeView(order: order)
                     }
                 }
             }
             Spacer()
         }
         .padding()
+    }
+    
+    private func deleteOrder() async {
+        do {
+            try await model.deleteOrder(orderId)
+            dismiss()
+        } catch {
+            print(error)
+        }
     }
 }
 
